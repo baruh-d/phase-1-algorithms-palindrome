@@ -6,6 +6,11 @@ function isPalindrome(word) {
 
 /* 
   Add your pseudocode here
+  The isPalindrome function checks if a string is a palindrome, which means that it reads the same forwards and backwards. 
+  The function works by first removing any non-letter characters from the string and converting it to lowercase. 
+  This ensures that the function is case-insensitive and can handle a wider range of inputs. Next, the function reverses the string and compares it to the original string. 
+  If the two strings are equal, the function returns true. 
+  Otherwise, the function returns false.
 */
 
 /*
